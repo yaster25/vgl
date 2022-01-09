@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'VGLIconsFont';
+  src:  url('../fonts/VGLIconsFont.eot?ry83i1');
+  src:  url('../fonts/VGLIconsFont.eot?ry83i1#iefix') format('embedded-opentype'),
+    url('../fonts/VGLIconsFont.ttf?ry83i1') format('truetype'),
+    url('../fonts/VGLIconsFont.woff?ry83i1') format('woff'),
+    url('../fonts/VGLIconsFont.svg?ry83i1#VGLIconsFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'VGLIconsFont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-header-arrow:before {
+  content: "\e916";
+}
+.icon-check:before {
+  content: "\e915";
+}
+.icon-icon-quote:before {
+  content: "\e914";
+}
+.icon-close-menu:before {
+  content: "\e900";
+}
+.icon-get-bar:before {
+  content: "\e901";
+}
+.icon-get-doc:before {
+  content: "\e902";
+}
+.icon-get-done:before {
+  content: "\e903";
+}
+.icon-get-eye:before {
+  content: "\e904";
+}
+.icon-get-find:before {
+  content: "\e905";
+}
+.icon-get-people:before {
+  content: "\e906";
+}
+.icon-get-s:before {
+  content: "\e907";
+}
+.icon-get-time:before {
+  content: "\e908";
+}
+.icon-how-arrow:before {
+  content: "\e909";
+}
+.icon-how-circle:before {
+  content: "\e90a";
+}
+.icon-how-detour:before {
+  content: "\e90b";
+}
+.icon-how-doc:before {
+  content: "\e90c";
+}
+.icon-how-setting:before {
+  content: "\e90d";
+}
+.icon-phone:before {
+  content: "\e90e";
+}
+.icon-play:before {
+  content: "\e90f";
+}
+.icon-s-arrow:before {
+  content: "\e910";
+}
+.icon-share-info:before {
+  content: "\e911";
+}
+.icon-slider-arrow:before {
+  content: "\e912";
+}
+.icon-what:before {
+  content: "\e913";
+}
