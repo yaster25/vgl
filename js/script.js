@@ -161,6 +161,12 @@ $(document).ready(function(){
         minWidth: 1200
     });
     
+    $('#sidebar-2').stickySidebar({
+        topSpacing: 80,
+        bottomSpacing: 30,
+        minWidth: 991
+    });
+    
      $('.js-tooltip').tooltipster({
         maxWidth: 240,
          side:'right'

@@ -30,7 +30,7 @@ h3 { font-size: calc(44 / 18 * 1rem); font-weight: 300; line-height: calc(56 / 4
 
 .content__block { padding: 60px 0 80px 0; }
 
-.button { font-size: 1rem; line-height: calc(24.51 / 18 * 100%); font-weight: 600 !important; color: #fff; padding: 18px 30px; background: linear-gradient(180deg, #25CBFF 0%, #009EFF 100%) !important; box-shadow: 0 0 16px rgba(255, 255, 255, 0.25); border-radius: 12px; cursor: pointer; }
+.button { font-size: 1rem; line-height: calc(24.51 / 18 * 100%); font-weight: 600 !important; color: #fff !important; padding: 18px 30px; background: linear-gradient(180deg, #25CBFF 0%, #009EFF 100%) !important; box-shadow: 0 0 16px rgba(255, 255, 255, 0.25); border-radius: 12px; cursor: pointer; }
 
 .button:hover { background: linear-gradient(0deg, #25CBFF 0%, #009EFF 100%) !important; }
 
@@ -844,6 +844,8 @@ h2 a:hover { color: #1B1B1B; }
 .y-section-choose-aside__btns .button { margin-bottom: 10px; width: 100%; }
 .y-section-choose-aside__btns .button:last-child { margin-bottom: 0; }
 .y-section-choose-aside-btn { display: none; }
+.y-section-choose__row { margin-bottom: 0; }
+.y-section-choose__col { padding-bottom: 0; }
 
 #choosen { display: none; }
 
@@ -1029,7 +1031,7 @@ h2 a:hover { color: #1B1B1B; }
 
 .mCSB_inside > .mCSB_container { margin-right: 0; }
 
-.y-popup { padding: 20px; background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; width: 100%; max-width: 320px; overflow: visible; }
+.y-popup { padding: 20px; background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; width: 100%; max-width: 560px; overflow: visible; }
 .y-popup__title { font-weight: 800; font-size: 20px; line-height: 27px; margin-bottom: 20px; }
 .y-popup__text { font-size: 12px; line-height: 16px; color: rgba(0, 0, 0, 0.64); margin-bottom: 10px; }
 .y-popup .fancybox-close-small { top: 0; right: -32px; color: #fff; }
@@ -1048,6 +1050,8 @@ h2 a:hover { color: #1B1B1B; }
 
 .hidden { display: none; }
 
+#popup-choosen { margin-bottom: 20px; }
+
 @media (max-width: 1339px) { .y-section-map .map__legend { left: 15px; } }
 @media (max-width: 1200px) { .equipment .y-col-3 { width: 33.33%; }
   .equipment .y-col-6 { width: 100%; }
@@ -1055,7 +1059,8 @@ h2 a:hover { color: #1B1B1B; }
   .choose-list-item__title { width: calc(100% - 40px); }
   .choose-list-item__price { padding-left: 50px; padding-top: 4px; }
   .y-section-product__row { margin-bottom: -30px; }
-  .y-section-product__col { padding-bottom: 30px; width: 100%; } }
+  .y-section-product__col { padding-bottom: 30px; width: 100%; }
+  .y-section-choose-aside { padding: 20px; } }
 @media (max-width: 991px) { .y-section { padding: 40px 0 40px; }
   h2 { font-size: calc(32 / 18 * 1rem); line-height: calc(36/ 26 * 100%); }
   .subtitle { font-size: calc(16 / 18 * 1rem); line-height: calc(24 / 20 * 100%); }
@@ -1066,7 +1071,7 @@ h2 a:hover { color: #1B1B1B; }
   .y-section-equipment-top__image { left: calc(50% - 325px); top: auto; bottom: -110px; display: none; }
   .y-section-choose__title { text-align: center; }
   .y-section-choose__text { text-align: center; }
-  .section-choose__col { width: 100%; }
+  .y-section-choose__col { width: 100%; }
   .choose-list-item { -webkit-flex-wrap: nowrap; -ms-flex-wrap: none; flex-wrap: nowrap; }
   .solutions { margin-top: 30px; }
   .solutions .y-col { width: 100%; }
@@ -1084,6 +1089,7 @@ h2 a:hover { color: #1B1B1B; }
   .y-section-choose-aside-btn span { display: none; }
   .y-section-choose-aside-btn.active { background: linear-gradient(180deg, #1B1B1B 0%, #535353 100%); color: #fff; pointer-events: auto; }
   .y-section-choose-aside-btn.active span { display: block; position: absolute; background: #06A5FF; border-radius: 10px; top: -6px; right: -6px; font-weight: bold; font-size: 12px; line-height: 16px; color: #fff; height: 16px; min-width: 16px; padding: 0 3px; text-align: center; }
+  #popup-choosen { display: none; padding: 0; background: none; }
   #choosen { display: none; padding: 0; background: none; }
   #choosen .y-section-choose-aside { background: #FFFFFF; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); border-radius: 16px; }
   .solutions { margin-top: 30px; margin-left: -15px; margin-right: -15px; padding: 0 5px; }
