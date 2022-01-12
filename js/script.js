@@ -157,13 +157,13 @@ $(document).ready(function(){
     
     $('#sidebar').stickySidebar({
         topSpacing: 80,
-        bottomSpacing: 30,
+        bottomSpacing: 20,
         minWidth: 1200
     });
     
     $('#sidebar-2').stickySidebar({
         topSpacing: 80,
-        bottomSpacing: 30,
+        bottomSpacing: 20,
         minWidth: 991
     });
     
